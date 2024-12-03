@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>O Ouro do Royal Merchant</title>
+</head>
+
+<body>
+    <main>
+        <section class="passo ativo" id="passo-0">
+
+            <img src="cenario-passo0.jpg" alt=>
+            <p>Você e seus amigos encontram um mapa no sótão da sua casa, nas coisas de seu pai que está desaparecido, indicando a localização do ouro perdido do Royal Merchant.
+            </p>
+            <button class="btn-proximo">Procurar pistas</button>
+            <button class="btn-proximo" data-proximo="2" aria-label="Desistir, pois o naufrágio aconteceu há muito tempo"> Desistir, pois o naufrágio aconteceu há muito tempo</button>
+            
+            
+              
+        
+        </section>
+
+            <section class="passo" id="passo-1"></section>
+            <p>O próximo passo dos Pogues é investigar a localização exata do navio naufragado.</p>
+            <button class="btn-proximo" data-proximo="3" aria-label="Procurar pistas do naufrágio">Procurar pistas do naufrágio</button>
+            <button class="btn-proximo" data-proximo="4" aria-label="Desistir e voltar para casa">Desistir e voltar para casa</button>
+        
+            
+        </section>
+
+        <netx step> <passo-2/netx>
+        <section class="passo" id="passo-2">
+            <img src="cenario-passo1.jpg" alt=>
+            <p>Eles localizam um naufrágio que acreditam ser do Royal Merchant.</p>
+            <button class="btn-proximo" data-proximo="5" aria-label="Mergulhar para buscar evidências">Mergulhar para buscar evidências</button>
+
+        </section>
+
+        
+        <section class="passo" id="passo-3">
+
+            <p>
+                No local, encontram uma bússola antiga pertencente ao pai de John B. O grupo descobre que o ouro 
+                não está no naufrágio, mas escondido em outro local.
+            </p>
+            <button class="btn-proximo" data-proximo="7" aria-label="Seguir para a próxima pista no porão da mansão dos Cameron">
+                Seguir para a próxima pista no porão da mansão dos Cameron
+            </button>
+
+        </section>
+
+       
+        <section class="passo" id="passo-4">
+            <p>À medida que avançam, os Pogues precisam lidar com Ward Cameron, que também está atrás do ouro.</p>
+
+        </section>
+
+        
+        <section class="passo" id="passo-5">
+
+            <img src="cenario-passo2.jpg" alt=>
+            <p>Os Pogues conseguem achar o tesouro do Royal Merchant, porém Ward Cameron descobre onde eles encontraram o ouro  e acaba roubando deles.</p>
+            
+        </section>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
+
